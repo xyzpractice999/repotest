@@ -7,7 +7,7 @@ import pages.LoginPage;
 import utils.BrowserUtils;
 import utils.FrameWorkUtils;
 
-public class TestSuite1 {
+public class TestSuite2 {
 
 	@Test
 	public void testLogin() { 
@@ -20,7 +20,6 @@ public class TestSuite1 {
 		loginPage.verifyLoginPage();
 		loginPage.performlogin();
 		homePage.verifyHomepage();
-		homePage.logout();
 		homePage.logout();
 		BrowserUtils.killBrowser();
 		
