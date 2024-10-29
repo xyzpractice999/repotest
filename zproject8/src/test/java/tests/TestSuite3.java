@@ -21,6 +21,7 @@ public class TestSuite3 {
 		loginPage.performlogin();
 		homePage.verifyHomepage();
 		homePage.logout();
+		homePage.logout();
 		BrowserUtils.killBrowser();
 		
 		
