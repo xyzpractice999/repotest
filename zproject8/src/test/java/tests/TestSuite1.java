@@ -20,8 +20,6 @@ public class TestSuite1 {
 		loginPage.verifyLoginPage();
 		loginPage.performlogin();
 		homePage.verifyHomepage();
-		homePage.logout();
-		homePage.logout();
 		homePage.verifyHomepage();
 		homePage.logout();
 		homePage.logout();
