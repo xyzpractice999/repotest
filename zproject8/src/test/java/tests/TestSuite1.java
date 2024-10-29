@@ -22,6 +22,9 @@ public class TestSuite1 {
 		homePage.verifyHomepage();
 		homePage.logout();
 		homePage.logout();
+		homePage.verifyHomepage();
+		homePage.logout();
+		homePage.logout();
 		BrowserUtils.killBrowser();
 		
 		
